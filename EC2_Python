@@ -1,0 +1,17 @@
+# setting up Python environment in EC2
+
+1. access ec2:
+windows environment: putty in jump box
+Linux environment: AWS CLI
+
+2.python code deployment workflow:
+
+*bitbucket->teamcity->octupus->s3
+*startup script->pull code from s3->extract the code-> run
+Note:
+ec2: when ec2 starts, it runs startup script, which pull code from s3, extract the code, and run.
+bitbucket push triggers teamcity to run unit tests, teamcity generates zip file, octopus uploads 
+the zip file to s3. when ec2 starts,  it runs a startup script, which will pull code from s3, extract the code, and RUN
+  
+
+  
