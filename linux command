@@ -1,5 +1,14 @@
 **********
+sudo:lets you run commands in your own user account with root privileges
+sudo su: switcher user, login as root
+sudo -i: give root environment
+sudo -s: give user environment
+
+**********
 cd /: goes to root directory
+cd ..: goes to parent directory of current directory
+cd ~: goes to user account
+cd ./[directory]: goes to directory within current directory
 **********
 chmod options permissions filename
 chmod -R 777 [filename]: change folder to read mode, 
@@ -20,6 +29,7 @@ sudo mv [directory/file] [another directory/file]
 if
 e.g:
 if [condition]; then 
+
   xxxxxxxxxxxx
 fi
 
