@@ -1,0 +1,10 @@
+chmod options permissions filename
+chmod -R 777 [filename]: change folder to read mode, 
+chmod u=rwx,g=rx,o=r myfile: user can read write, execute it , memembers of group can read and execute it , others read only
+
+777: user=4+2+1+0, group = 4+2+1+0, others = 4+2+1+0
+
+4 stands for "read",
+2 stands for "write",
+1 stands for "execute", 
+0 stands for "no permission."
