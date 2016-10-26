@@ -10,6 +10,11 @@ cd ..: goes to parent directory of current directory
 cd ~: goes to user account
 cd ./[directory]: goes to directory within current directory
 **********
+find:
+find / -type f -name [filename]: find from the root(/), type: file, name:[filename]
+find ~ -type f -name [filename]: find from user account (/home/churq)
+
+**********
 chmod options permissions filename
 chmod -R 777 [filename]: change folder to read mode, 
 chmod u=rwx,g=rx,o=r myfile: user can read write, execute it , memembers of group can read and execute it , others read only
