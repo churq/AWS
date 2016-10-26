@@ -1,3 +1,4 @@
+**********
 chmod options permissions filename
 chmod -R 777 [filename]: change folder to read mode, 
 chmod u=rwx,g=rx,o=r myfile: user can read write, execute it , memembers of group can read and execute it , others read only
@@ -8,3 +9,22 @@ chmod u=rwx,g=rx,o=r myfile: user can read write, execute it , memembers of grou
 2 stands for "write",
 1 stands for "execute", 
 0 stands for "no permission."
+***********
+
+mv: move file from one location to another location
+e.g:
+sudo mv [directory/file] [another directory/file]
+*****************
+if
+e.g:
+if [condition]; then 
+  xxxxxxxxxxxx
+fi
+
+****************
+rm: remove file/folder
+e.g.1:sudo rm -r [folder]  : remove the folder and contents
+e.g.2:sudo rm -rf [folder]
+*****************
+mkdir: create directory
+sudo mkdir [path]
