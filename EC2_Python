@@ -15,9 +15,9 @@ the zip file to s3. when ec2 starts,  it runs a startup script, which will pull 
   
 
 3 install python on EC2 linux:
-*sudo yum install python35
+*sudo yum install python35: redhat
 or
-*sudo apt-get install python 3.5
+*sudo apt-get install python 3.5 : ubuntu, debian
  
 *to see if pip is installed:
  command -v pip
