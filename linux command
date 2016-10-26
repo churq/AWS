@@ -23,8 +23,8 @@ fi
 
 ****************
 rm: remove file/folder
-e.g.1:sudo rm -r [folder]  : remove the folder and contents
-e.g.2:sudo rm -rf [folder]
+e.g.1:sudo rm -r [folder]  : remove the folder and contents, prompted
+e.g.2:sudo rm -rf [folder] : remove the folder and contents, no prompted
 *****************
 mkdir: create directory
 sudo mkdir [path]
