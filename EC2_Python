@@ -14,4 +14,15 @@ bitbucket push triggers teamcity to run unit tests, teamcity generates zip file,
 the zip file to s3. when ec2 starts,  it runs a startup script, which will pull code from s3, extract the code, and RUN
   
 
-  
+3 install python on EC2 linux:
+*sudo yum install python35
+or
+*sudo apt-get install python 3.5
+ 
+*to see if pip is installed:
+ command -v pip
+
+4 A Virtual Environment is a tool to keep the dependencies required by different projects in separate places,
+by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, 
+Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
+
