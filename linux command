@@ -31,6 +31,10 @@ mv: move file from one location to another location
 e.g:
 sudo mv [directory/file] [another directory/file]
 *****************
+How to execute *.sh files on Linux3
+type chmod +x name_of_file.sh to make your file executable.
+Then type sh ./name_of_file.sh to execute the file.
+*************
 if
 e.g:
 if [condition]; then 
