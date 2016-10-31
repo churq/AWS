@@ -1,0 +1,8 @@
+******************access aws se and downloan
+
+#enable rh python first
+
+
+import boto3
+
+client = boto3.client('s3', region_name="ap-southeast-2")
