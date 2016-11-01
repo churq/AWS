@@ -18,9 +18,14 @@ the zip file to s3. when ec2 starts,  it runs a startup script, which will pull 
 *sudo yum install python35: redhat
 or
 *sudo apt-get install python 3.5 : ubuntu, debian
+
+* enable python:
+scl enable rh-python35 bash
  
 *to see if pip is installed:
  command -v pip
+ 
+
 
 4 A Virtual Environment is a tool to keep the dependencies required by different projects in separate places,
 by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, 
