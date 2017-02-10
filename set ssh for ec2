@@ -1,0 +1,8 @@
+#1. generate private key with puttygen
+#2. create ~/.ssh/authorized_keys file
+#3. copy private key from putty window into ~/.ssh/authorized_keys, *make sure the key string is copied and pasted properly, 
+    be careful of first character missing, e.g 'ssh-rsa.....' not 'sh-rsa.....'
+# chmod 0700 ~/.ssh
+# chmod 0644 ~/.ssh/authorized_keys
+#login putty, go to SSH->AUTH->Browse to load private key file
+
