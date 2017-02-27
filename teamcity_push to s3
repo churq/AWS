@@ -1,0 +1,5 @@
+"%env.AWS_EXECUTABLE%" configure --profile finance_metrics set aws_access_key_id %env.aws.AccessKeyID%
+
+"%env.AWS_EXECUTABLE%" configure --profile finance_metrics set aws_secret_access_key %env.aws.SecretAccessKey%
+
+"%env.AWS_EXECUTABLE%" s3 cp dist/financemetrics-dev.zip s3://apse2-dev-fmepicor-datalake/finance-metrics/code-deployable/financemetrics-dev.zip --profile finance_metrics
